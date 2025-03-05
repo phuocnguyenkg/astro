@@ -19,10 +19,12 @@
     "@types/react-window": "^1.8.8",
     "add": "^2.0.6",
     "astro": "^5.4.1",
+    "framer-motion": "^12.4.10",
     "import": "^0.0.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-image": "^4.1.0",
+    "react-intersection-observer": "^9.15.1",
     "react-window": "^1.8.11",
     "swiper": "^11.2.4",
     "tailwindcss": "^4.0.9"
