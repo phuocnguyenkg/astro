@@ -1,5 +1,6 @@
 ---
 import List from '../components/List';
+import SynchronizedSliders from '../components/SynchronizedSliders';
 import Layout from '../layouts/Layout.astro';
 const slider = [
 	{
@@ -51,7 +52,7 @@ const options = [
 
 <Layout>
     <div class="max-w-[1284px] mx-auto">
-        <List client:load items={slider} />
+        <SynchronizedSliders client:load images={slider.map((item) => item.image)} />
     </div>
 </Layout>
 
